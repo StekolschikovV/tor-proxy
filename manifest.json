@@ -1,0 +1,15 @@
+{
+	"name": "SafetyProxy",
+	"version": "1.0.0",
+  "description": "A free open-source chrome extension to block out the hackers from the enterprise organisation or school. Get me at https://github.com/JustAnEric/SafetyProxy and be safe.",
+	"manifest_version": 3,
+	"permissions": ["proxy", "storage", "scripting"],
+	"background": {
+    "service_worker": "background.js"
+  },
+
+	"action": {
+		"default_icon": "icon.png",
+		"default_popup": "popup.html"
+	}
+}
